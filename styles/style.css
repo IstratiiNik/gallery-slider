@@ -115,6 +115,36 @@ h6 {
   border: 2px solid black;
   border-radius: 50%;
 }
+
 .rounds .active {
   background-color: #e67e22;
+}
+
+.triggers {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: space-between;
+  z-index: 2;
+}
+
+.triggers button {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.triggers button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
 }
