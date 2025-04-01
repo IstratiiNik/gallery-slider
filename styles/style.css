@@ -97,3 +97,24 @@ h6 {
   width: 500px;
   height: 500px;
 }
+
+.rounds {
+  position: absolute;
+  z-index: 2;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 15px;
+}
+
+.rounds button {
+  width: 20px;
+  height: 20px;
+  background-color: #ecf0f1;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+.rounds .active {
+  background-color: #e67e22;
+}
